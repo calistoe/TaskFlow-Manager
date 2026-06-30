@@ -85,6 +85,14 @@ npm start
 - Data synchronization
 - Productivity analytics
 
+## 📦 Download
+
+Download the latest desktop version from the GitHub Releases page.
+
+**Latest Release:**
+
+https://github.com/calistoe/TaskFlow-Manager/releases/latest
+
 ## 👩‍💻 Developer
 
 **Carmella Gaudete R. Enriquez**
