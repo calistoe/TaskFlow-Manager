@@ -1,64 +1,97 @@
-## GreenProductive
+# 🌿 TaskFlow Manager
+
+A desktop productivity application designed to help users stay organized, manage daily tasks efficiently, and build productive habits. Built with Electron, TaskFlow Manager provides a simple and intuitive interface for tracking tasks and monitoring daily progress.
 
 ![design image](https://github.com/user-attachments/assets/ff506f03-9aeb-4eec-a86e-374c3f80aa0a)
 
-GreenProductive is a one-week project I created to kickstart my productive coding journey. It's a real-time updating to-do list
-featuring custom-designed UI elements. This project not only helped me refresh my javaScript skills but also reinforced my
-understanding of fundamentals methods and data structures.
+## 📖 Overview
 
-### It was build with...
+TaskFlow Manager is a lightweight desktop application that streamlines task management by allowing users to organize their daily workflow in one place. The application encourages productivity through a clean interface and an easy-to-use task management system.
 
-- HTML
-- CSS
-- JavaScript
-- ElectronJS
+## ✨ Features
 
-## Installation Instructions
-
-### Installation
-
-1. Clone the repository
-   `git clone https://github.com/Btelgeuse/GreenProductive.git`
-2. Install NPM packages
-   `npm install`
-3. Install ElectronJS
-   `npm install --save-dev electron`
-
-## Usage
-
-To run the application, run the command `npm start`
-In this application you can create tasks, by writing it in the text field, then clicking the "+" button. It will appear on the
-to-do list displayed below the date and the input field, and you'll be able to click on it once you got it done to strikethrough
-the line. It will update automatically your progression bar, that updates its value according to the number of tasks you put, and
-the number of tasks you finished.
+- ✅ Create and manage daily tasks
+- 🌱 Productivity-focused user interface
+- 🎯 Track daily progress
+- 🖥️ Cross-platform desktop application using Electron
 
 ![to-do list visualization](https://github.com/user-attachments/assets/90c264ea-229a-418a-8603-c8b7d30647a6)
 
-Once you're done, click on the finish button to get your daily achievement score!
+## 🛠️ Technologies Used
 
-## Contributing Guidelines
+- HTML5
+- CSS3
+- JavaScript
+- Electron
+- Electron Forge
+- Node.js
 
-1. Fork the project
-2. Create a feature branch (`git checkout -b ...`)
-3. Commit your changes (`git commit -m "..."`)
-4. Push to the branch (`git push origin ...`)
-5. Open a pull request
+## 📁 Project Structure
 
-### Main contributors
+```
+TaskFlow-Manager/
+├── assets/
+├── dashboard.html
+├── dashboard.js
+├── finishDay.html
+├── finishDay.js
+├── index.html
+├── main.js
+├── preload.js
+├── styles.css
+├── package.json
+└── README.md
+```
 
-Nobody contributed yet ;(
+## 🚀 Getting Started
 
-## Contact
+### Prerequisites
 
-Joanne Andriamahandry
+- Node.js
+- npm
 
-[My Instagram](https://www.instagram.com/b.telgeuse/)
+### Installation
 
-## Acknowledgements
+Clone the repository:
 
-Here are the resources that helped me build this project:
+```bash
+git clone https://github.com/calistoe/TaskFlow-Manager.git
+```
 
--
--
--
--
+Navigate into the project folder:
+
+```bash
+cd TaskFlow-Manager
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm start
+```
+
+## 🎯 Future Improvements
+
+- Task categories
+- Due dates and reminders
+- Recurring tasks
+- Dark mode
+- Data synchronization
+- Productivity analytics
+
+## 👩‍💻 Developer
+
+**Carmella Gaudete R. Enriquez**
+
+- GitHub: https://github.com/calistoe
+- LinkedIn: www.linkedin.com/in/carmella-gaudete-enriquez
+
+---
+
+⭐ If you found this project interesting, feel free to star the repository!
